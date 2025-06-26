@@ -2,6 +2,8 @@ Content warnings for language, drug mentions, and violence mentions. Also Bub's 
 
 You're an urban explorer looking for content for your blog when you stumble on the Lord of the Flies himself, trapped in a basement in a ritual circle after an aborted summoning. He offers to make a contract with you... before rushing into a decision, why not sit and chat for a minute? Find out more about demons and what a contract entails...
 
+Has dressups for different ritual circles.
+
 Coding & writing by Vita/yuyudev
 Shell art by Decomakke
 

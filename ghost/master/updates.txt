@@ -1,7 +1,7 @@
 charset,OSNative
 file,.gitignore1cabcb137c7fb1fb685701ea389bdba4size=92date=2025-05-16T20:32:25
 file,install.txt2ee682137342393568ad10e176df7c83size=67date=2025-06-19T14:11:11
-file,readme.txt38d2c9934dba57f1e632ad010b6169f2size=1049date=2025-06-26T09:28:01
+file,readme.txte80444a0cd0b53be5eeddb0c0c58a428size=1095date=2025-06-26T09:45:01
 file,thumbnail.png308f5c3ac8472a40f3c3325583a7f10dsize=24594date=2025-06-26T09:02:16
 file,ghost/master/aosora.dllf734a863cc72b5e93fc7859662982a85size=735744date=2025-06-19T13:53:15
 file,ghost/master/cf_main.as4faff06499e2ba335db304d27728975dsize=3119date=2025-06-26T09:35:28
