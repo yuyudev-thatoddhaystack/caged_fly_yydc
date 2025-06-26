@@ -1,0 +1,15 @@
+charset,UTF-8
+type,ghost
+name,Caged Fly
+sakura.name,Beelzebub
+kero.name,none
+
+craftman,Vita/yuyudev
+craftmanw,Vita/yuyudev
+craftmanurl,https://thatoddhaystack.neocities.org/ukagaka/
+
+shiori,aosora.dll
+
+balloon,Calm wine
+
+icon,icon.ico

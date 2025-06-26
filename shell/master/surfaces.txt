@@ -1,0 +1,311 @@
+charset,UTF-8
+
+descript
+{
+version,1
+}
+
+//notes
+//10XX - eyes
+//20XX - mouths
+//30XX - wings
+//40XX - eyebrows
+//
+
+surface0
+{
+
+}
+
+//embarrassed
+surface1
+{
+    element0,overlay,surface0.png,0,0
+    element1,overlay,surface4002.png,0,0
+}
+
+//surprise
+surface2
+{
+	element0,overlay,surface0.png,0,0
+    element1,overlay,surface4000.png,0,0
+    element2,overlay,surface2000.png,0,0
+}
+
+//anxiety
+surface3
+{
+	element0,overlay,surface0.png,0,0
+    element1,overlay,surface4002.png,0,0
+    element2,overlay,surface2052.png,0,0
+}
+
+//discourage
+surface4
+{
+	element0,overlay,surface0.png,0,0
+    element1,overlay,surface4002.png,0,0
+    element2,overlay,surface2022.png,0,0
+}
+
+//smile
+surface5
+{
+	element0,overlay,surface0.png,0,0
+    element1,overlay,surface2032.png,0,0
+    element2,overlay,surface4000.png,0,0
+}
+
+//closing eyes
+surface6
+{
+	element0,overlay,surface0.png,0,0
+    element1,overlay,surface1001.png,0,0
+}
+
+//anger
+surface7
+{
+	element0,overlay,surface0.png,0,0
+    element1,overlay,surface4001.png,0,0
+    element2,overlay,surface2042.png,0,0
+}
+
+//sneer
+surface8
+{
+	element0,overlay,surface0.png,0,0
+    element1,overlay,surface4001.png,0,0
+    element2,overlay,surface2032.png,0,0
+}
+
+//embarrassed anger
+surface9
+{
+	element0,overlay,surface0.png,0,0
+    element1,overlay,surface4001.png,0,0
+    element2,overlay,surface2052.png,0,0
+}
+
+//pensive
+surface11
+{
+	element0,overlay,surface0.png,0,0
+    element1,overlay,surface1001.png,0,0
+    element2,overlay,surface4002.png,0,0
+    element3,overlay,surface2042.png,0,0
+}
+
+//closed eye smile
+surface12
+{
+	element0,overlay,surface0.png,0,0
+    element1,overlay,surface1001.png,0,0
+    element2,overlay,surface4002.png,0,0
+    element3,overlay,surface2032.png,0,0
+}
+
+//eyeroll
+surface13
+{
+
+    element0,overlay,surface0.png,0,0
+    element1,overlay,surface1020.png,0,0
+    element2,overlay,surface4001.png,0,0
+    element3,overlay,surface2022.png,0,0
+
+}
+
+//annoyed
+surface14
+{
+
+    element0,overlay,surface0.png,0,0
+    element1,overlay,surface1000.png,0,0
+    element2,overlay,surface4001.png,0,0
+    element3,overlay,surface2022.png,0,0
+
+}
+
+//arms up
+surface15
+{
+    element0,replace,surface5000.png,0,0
+}
+
+//resignated
+surface16
+{
+    element0,overlay,surface0.png,0,0
+    element1,overlay,surface1020.png,0,0
+    element2,overlay,surface4000.png,0,0
+    element3,overlay,surface2052.png,0,0
+}
+
+//closed eyes angry
+surface17
+{
+	element0,overlay,surface0.png,0,0
+    element1,overlay,surface1001.png,0,0
+    element2,overlay,surface4001.png,0,0
+    element3,overlay,surface2042.png,0,0
+}
+
+//wings and dressups
+surface.append0-18
+{
+	//Wings animate
+	animation5.interval,random,10
+	animation5.option,background
+	animation5.pattern0,stop,6
+  	animation5.pattern1,overlay,3002,0,0,0  
+	animation5.pattern2,overlay,3001,20,0,0
+    animation5.pattern3,overlay,3002,150,0,0
+	animation5.pattern4,overlay,-1,20,0 0
+	animation5.pattern5,start,6
+	
+	//wings default
+	animation6.interval,runonce
+	animation6.option,background
+	animation6.pattern0,overlay,3000,0,0
+    
+    //dressups 
+    animation7.interval,bind
+	animation7.option,background
+    animation7.pattern0,overlay,9000,0,0
+    
+    animation8.interval,bind
+	animation8.option,background
+    animation8.pattern0,overlay,9001,0,0
+    
+    animation9.interval,bind
+	animation9.option,background
+    animation9.pattern0,overlay,9002,0,0
+}
+
+
+surface.append0-9,!6
+{
+
+	//Blink
+	animation0.interval,random,4
+	animation0.pattern1,overlay,1000,0,0,0
+	animation0.pattern2,overlay,1001,100,0,0
+	animation0.pattern3,overlay,-1,50,0,0
+
+}
+
+
+//normal talk
+surface.append0,1,6,7,11,17
+{
+	//Talk
+	animation1.interval,talk,4
+	animation1.pattern0,alternativestart,(2,3,4)
+	
+	animation2.interval,never
+	animation2.pattern0,overlay,2000,0,0,0
+	animation2.pattern1,overlay,2001,100,0,0
+	animation2.pattern2,overlay,-1,100,0,0
+	
+	animation3.interval,never
+	animation3.pattern0,overlay,2001,0,0,0
+	animation3.pattern1,overlay,-1,100,0,0
+	
+	animation4.interval,never
+	animation4.pattern0,overlay,-1,0,0,0
+	animation4.pattern1,overlay,2000,100,0,0
+	animation4.pattern2,overlay,-1,100,0,0
+}
+
+//smile talk
+surface.append5,8,12
+{
+	//Talk
+	animation1.interval,talk,4
+	animation1.pattern0,alternativestart,(2,3,4)
+	
+	animation2.interval,never
+	animation2.pattern0,overlay,2030,0,0,0
+	animation2.pattern1,overlay,2031,100,0,0
+	animation2.pattern2,overlay,-1,100,0,0
+	
+	animation3.interval,never
+	animation3.pattern0,overlay,2031,0,0,0
+	animation3.pattern1,overlay,-1,100,0,0
+	
+	animation4.interval,never
+	animation4.pattern0,overlay,-1,0,0,0
+	animation4.pattern1,overlay,2030,100,0,0
+	animation4.pattern2,overlay,-1,100,0,0
+}
+
+//side talk
+surface.append3,4,9,13,14,16
+{
+	//Talk
+	animation1.interval,talk,4
+	animation1.pattern0,alternativestart,(2,3,4)
+	
+	animation2.interval,never
+	animation2.pattern0,overlay,2050,0,0,0
+	animation2.pattern1,overlay,2051,100,0,0
+	animation2.pattern2,overlay,-1,100,0,0
+	
+	animation3.interval,never
+	animation3.pattern0,overlay,2051,0,0,0
+	animation3.pattern1,overlay,-1,100,0,0
+	
+	animation4.interval,never
+	animation4.pattern0,overlay,-1,0,0,0
+	animation4.pattern1,overlay,2050,100,0,0
+	animation4.pattern2,overlay,-1,100,0,0
+}
+
+//eyeroll blink
+surface.append13,16
+{
+
+	//Blink
+	animation0.interval,random,4
+	animation0.pattern1,overlay,1010,0,0,0
+	animation0.pattern2,overlay,1001,100,0,0
+	animation0.pattern3,overlay,-1,50,0,0
+    
+}
+
+//squint blink
+surface.append14
+{
+
+	//Blink
+	animation0.interval,random,4
+	animation0.pattern2,overlay,1001,0,0,0
+	animation0.pattern3,overlay,-1,50,0,0
+    
+}
+
+//arms up blink
+surface.append15
+{
+	//Blink
+	animation0.interval,random,4
+	animation0.pattern1,overlay,5001,0,0,0
+	animation0.pattern2,overlay,5002,100,0,0
+	animation0.pattern3,overlay,-1,50,0,0
+}
+
+
+surface10
+{
+
+}
+
+surface6660
+{
+
+}
+surface6666
+{
+
+}

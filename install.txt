@@ -1,0 +1,4 @@
+charset,UTF-8
+name,Caged Fly
+type,ghost
+directory,caged_fly_yydc

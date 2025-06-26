@@ -1,0 +1,38 @@
+charset, UFT-8
+type,shell
+name,Chained Fly
+
+craftman,decomakke 
+craftmanw,decomakke 
+craftmanurl,https://x.com/decomakke
+
+seriko.use_self_alpha,1
+seriko.alignmenttodesktop,bottom
+
+sakura.bindgroup7.name,Ritual Circle,Plain,circle
+sakura.bindgroup8.name,Ritual Circle,Star,circle
+sakura.bindgroup9.name,Ritual Circle,Intricate Star,circle
+
+menu.background.alignment,centerbottom
+menu.foreground.alignment,centerbottom
+
+menu.background.font.color.r,218
+menu.background.font.color.g,200
+menu.background.font.color.b,202
+
+
+menu.foreground.font.color.r,255
+menu.foreground.font.color.g,243
+menu.foreground.font.color.b,243
+
+menu.frame.color.r,255
+menu.frame.color.g,4
+menu.frame.color.b,4
+
+menu.separator.color.r,255
+menu.separator.color.g,4
+menu.separator.color.b,4
+
+menu.disable.font.color.r,126
+menu.disable.font.color.g,116
+menu.disable.font.color.b,116
