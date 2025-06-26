@@ -45,19 +45,19 @@ function OnBoot {
 }
 
 talk NormalBoot {
-    \s[5]You've come back?\w8 Reconsidered my offer?\w8 
+    \s[5]You've come back?\w8 Reconsidered my offer?\w8\w8\w8
 }
 
 talk NormalBoot {
-    \s[0]Hello again.\w8 Nothing new here.\w8 Same old basement,\w2 same old Bubs.
+    \s[0]Hello again.\w8 Nothing new here.\w8 Same old basement,\w2 same old Bubs.\w8\w8\w8
 }
 
 talk NormalBoot {
-    \s[3].\w2.\w2.\w4How long has it been since you last visited?\w8 Time passes slowly here.
+    \s[3].\w2.\w2.\w4How long has it been since you last visited?\w8 Time passes slowly here.\w8\w8\w8
 }
 
 talk EvilBoot {
-    \s[6666][Another day of Beelzebub's chaos]
+    \s[6666][Another day of Beelzebub's chaos]\w8\w8\w8
 }
 
 
@@ -73,19 +73,19 @@ function OnClose {
 }
 
 talk NormalClose {
-    \s[3].\w2.\w2.\w4You're leaving?\w8\s[0] Need some more time to think about it?\w8 Come back soon,\w2 alright?
+    \s[3].\w2.\w2.\w4You're leaving?\w8\s[0] Need some more time to think about it?\w8 Come back soon,\w2 alright?\w8\w8\w8\w8
 }
 
 talk NormalClose {
-    \s[4].\w2.\w2.\w4Alright.\w8 Bye for now.
+    \s[4].\w2.\w2.\w4Alright.\w8 Bye for now.\w8\w8\w8\w8
 }
 
 talk NormalClose {
-    \s[0]See you.\w8 I'll still be here.\w8 Since I can't leave.\s[3]\w8 Ha ha. 
+    \s[0]See you.\w8 I'll still be here.\w8 Since I can't leave.\s[3]\w8 Ha ha. \w8\w8\w8\w8
 }
 
 talk EvilClose {
-    \s[6666][Enough of that nonsense for now.]
+    \s[6666][Enough of that nonsense for now.]\w8\w8\w8\w8
 }
 
 talk OnMouseDoubleClick {
@@ -106,5 +106,5 @@ function contract {
 
 function homeurl
 {
-	return "";
+	return "https://raw.githubusercontent.com/yuyudev-thatoddhaystack/caged_fly_yydc/main/";
 }

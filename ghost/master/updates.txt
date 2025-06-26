@@ -4,7 +4,7 @@ file,install.txt2ee682137342393568ad10e176df7c83size=67date=2025-06-19T14:11:
 file,readme.txt38d2c9934dba57f1e632ad010b6169f2size=1049date=2025-06-26T09:28:01
 file,thumbnail.png308f5c3ac8472a40f3c3325583a7f10dsize=24594date=2025-06-26T09:02:16
 file,ghost/master/aosora.dllf734a863cc72b5e93fc7859662982a85size=735744date=2025-06-19T13:53:15
-file,ghost/master/cf_main.asf5d961fd22e8ff62686fda1350199dc2size=3039date=2025-06-26T09:32:14
+file,ghost/master/cf_main.as4faff06499e2ba335db304d27728975dsize=3119date=2025-06-26T09:35:28
 file,ghost/master/cf_menu.as683a3c18e9cc6b65391a1fc72c8b72f7size=2426date=2025-06-26T08:22:29
 file,ghost/master/cf_talk.as7d29b2f0170c3dea7d0952cd0846b652size=10726date=2025-06-26T08:48:21
 file,ghost/master/descript.txt41614bd2e329373d093541a2481dc8f5size=248date=2025-06-24T21:23:53
