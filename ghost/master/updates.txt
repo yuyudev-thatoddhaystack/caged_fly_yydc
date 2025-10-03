@@ -1,15 +1,15 @@
 charset,OSNative
-file,.gitignore1cabcb137c7fb1fb685701ea389bdba4size=92date=2025-05-16T20:32:25
 file,install.txt2ee682137342393568ad10e176df7c83size=67date=2025-06-19T14:11:11
-file,readme.txte80444a0cd0b53be5eeddb0c0c58a428size=1095date=2025-06-26T09:45:01
+file,readme.txt40136d738ca3cf710318905a76009727size=1461date=2025-10-02T20:45:52
 file,thumbnail.png308f5c3ac8472a40f3c3325583a7f10dsize=24594date=2025-06-26T09:02:16
 file,ghost/master/aosora.dllf734a863cc72b5e93fc7859662982a85size=735744date=2025-06-19T13:53:15
 file,ghost/master/cf_main.as4faff06499e2ba335db304d27728975dsize=3119date=2025-06-26T09:35:28
 file,ghost/master/cf_menu.as683a3c18e9cc6b65391a1fc72c8b72f7size=2426date=2025-06-26T08:22:29
-file,ghost/master/cf_talk.as7d29b2f0170c3dea7d0952cd0846b652size=10726date=2025-06-26T08:48:21
+file,ghost/master/cf_meta.as6bd34055998c38d2ec616be0e5aed30bsize=2359date=2025-10-02T20:43:42
+file,ghost/master/cf_talk.as4d875568770aacdaa6dbc71ff98f8755size=19250date=2025-10-01T21:16:43
 file,ghost/master/descript.txt41614bd2e329373d093541a2481dc8f5size=248date=2025-06-24T21:23:53
 file,ghost/master/ghost.aslang40d704470259297f93bee626c12b71fbsize=5date=2025-06-19T16:49:45
-file,ghost/master/ghost.asproj2a7e773af793ccac0327aba7116ff82bsize=34date=2025-06-20T12:21:24
+file,ghost/master/ghost.asproj4b78fc3aff9660c61e4bfec1fb2dc9b9size=46date=2025-10-02T20:19:59
 file,ghost/master/icon.icoa8a286d5f988ae738a40d5e55ec5e345size=318date=2025-06-24T21:19:02
 file,shell/master/closed mouth.png70834dc9a3cab2c8a930f3fd81a02e2asize=2734date=2025-06-25T22:22:32
 file,shell/master/descript.txteb4c269560ee621fac110c47fde3e6c6size=889date=2025-06-26T09:21:18
