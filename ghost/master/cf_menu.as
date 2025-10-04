@@ -89,7 +89,7 @@ talk OnContract {
 
 function OnContractYes {
 
-    dialogue = "\s[8]Alright,\w2 finally.\w8 I can get outta here.\w8\n\nGive me your palm.\w8 I just need a little bit of your blood.\w8It will only be a pinch.\w2.\w2.\w4\x\c\s[-1][You wake up in your bed an unspecified number of hours later.\w8\s[6666] A scroll tied with a red ribbon sits on your dresser.\w8\n\n.\w2.\w2.\w4What exactly did you agree to?]";
+    dialogue = "\s[8]Alright,\w2 finally.\w8 I can get outta here.\w8\n\nGive me your palm.\w8 I just need a little bit of your blood.\w8 It will only be a pinch.\w2.\w2.\w4\x\c\s[-1][You wake up in your bed an unspecified number of hours later.\w8\s[6666] A scroll tied with a red ribbon sits on your dresser.\w8\n\n.\w2.\w2.\w4What exactly did you agree to?]";
 
     Save.Data.ContractMade = true;
 
