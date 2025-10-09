@@ -74,9 +74,15 @@ function SetTalkInterval(intervalSeconds){
 }
 
 talk EvilMenu {
+    \_q
     \s[6666][You begin to wonder if you've made a mistake.]
 
     \f[height,-1]\q[Reset?,OnStartReset]\f[height,default]\![set,choicetimeout,5000]
+
+    \q[Nevermind,OnNevermind]
+    \_q
+
+
 }
 
 talk OnContract {

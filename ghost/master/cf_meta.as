@@ -1,3 +1,8 @@
+function OnHydrateStatsNotify {
+	Save.Data.HydrateShell = Shiori.Reference[0];
+}
+
+
 //taken from hoard of shinies by zi
 function OnUpdateBegin
 {
@@ -38,19 +43,24 @@ function OnUpdateFailure
 	else if (Shiori.Reference[0] == "md5 miss") reason = "MD5 error on file {Shiori.Reference[1]}\n\nPlease contact the ghost author for assistance";
 	else if (Shiori.Reference[0] == "artificial") reason = "canceled by user";
 	
-	return "\0\![set,serikotalk,false]Could not update: {reason}.]";
+	return "\0\![set,serikotalk,false][Could not update: {reason}.]";
 }
 
 function OnKeyPress
 {
 	if (Shiori.Reference[0] == "f1") { return "\![open,readme]"; }
-	else if (Shiori.Reference[0] == "t") { return OnStartTalk; }
+	else if (Shiori.Reference[0] == "t") { return OnAITalk; }
 	else if (Shiori.Reference[0] == "r") { return OnLastTalk; }
 }
 
 function OnSurfaceRestore
 {
-	return "\![set,alignmenttodesktop,bottom]\0\s[0]";
+	
+	if (contract()){
+		return "\0\s[6666]";
+	} else {
+		return "\![set,alignmenttodesktop,bottom]\0\s[0]";
+	}
 }
 
 function FormatLinks(links)

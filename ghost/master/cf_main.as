@@ -1,6 +1,7 @@
 function OnAosoraDefaultSaveData {
 	Save.Data.UserName = "Explorer";
-	Save.Data.TalkInterval = 180;	
+	Save.Data.TalkInterval = 180;
+    Save.Data.HydrateShell = "";	
 }
 
 function username {
@@ -13,6 +14,7 @@ function OnAosoraLoad {
     TalkTimer.RandomTalk = OnAITalk;
     LastTalk = "";
     TalkTimer.RandomTalkIntervalSeconds = Save.Data.TalkInterval;
+
 }
 
 function OnFirstBoot{

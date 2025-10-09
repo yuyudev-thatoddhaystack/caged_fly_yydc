@@ -29,6 +29,10 @@ Decomakke's Tumblr:https://comakke.tumblr.com/
 
 ----------Versions
 
+v1.1.1 - 10.8.2025
+Spectre compatibility added
+New randomtalk (1) [Related to a particular Hydrate shell]
+
 v1.1 - 10.2.2025
 New randomtalk (23)
 Miscellaneous typos fixed

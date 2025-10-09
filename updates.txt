@@ -1,12 +1,12 @@
 charset,OSNative
 file,install.txt2ee682137342393568ad10e176df7c83size=67date=2025-06-19T14:11:11
-file,readme.txt40136d738ca3cf710318905a76009727size=1461date=2025-10-02T20:45:52
+file,readme.txt31b271c27a14e36f43bfc43cf5c84725size=1572date=2025-10-08T20:02:25
 file,thumbnail.png308f5c3ac8472a40f3c3325583a7f10dsize=24594date=2025-06-26T09:02:16
 file,ghost/master/aosora.dllf734a863cc72b5e93fc7859662982a85size=735744date=2025-06-19T13:53:15
-file,ghost/master/cf_main.as4faff06499e2ba335db304d27728975dsize=3119date=2025-06-26T09:35:28
-file,ghost/master/cf_menu.asba7e23771d34409276303ce82ebaaef1size=2427date=2025-10-03T21:30:00
-file,ghost/master/cf_meta.as6bd34055998c38d2ec616be0e5aed30bsize=2359date=2025-10-02T20:43:42
-file,ghost/master/cf_talk.as4d875568770aacdaa6dbc71ff98f8755size=19250date=2025-10-01T21:16:43
+file,ghost/master/cf_main.asae673bde10e6aaa26d4da8adfaa870e3size=3155date=2025-10-08T19:22:08
+file,ghost/master/cf_menu.as5492ec55fa8096d3f1181606872cdca8size=2482date=2025-10-08T19:35:31
+file,ghost/master/cf_meta.asdbee5e81a2f460212efb136f8ee3c862size=2507date=2025-10-08T19:44:14
+file,ghost/master/cf_talk.as98106e920ef2fcc21ab5968eceb42d7csize=20959date=2025-10-08T20:00:45
 file,ghost/master/descript.txt41614bd2e329373d093541a2481dc8f5size=248date=2025-06-24T21:23:53
 file,ghost/master/ghost.aslang40d704470259297f93bee626c12b71fbsize=5date=2025-06-19T16:49:45
 file,ghost/master/ghost.asproj4b78fc3aff9660c61e4bfec1fb2dc9b9size=46date=2025-10-02T20:19:59

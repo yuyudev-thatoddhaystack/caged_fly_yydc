@@ -301,6 +301,16 @@ talk RandomTalk {
     \s[7]And like,\w2 it's quiet enough so that I don't notice it unless everything else is quiet,\w2 and then it's the only thing I notice for the next hour.\w8 Worst thing is I don't know if its a real noise,\w2 or something my brain made up because I'm so fucking bored here. 
 }
 
+function RandomTalk {
+    if (Save.Data.HydrateShell == "Leaky Pipe" || Save.Data.HydrateShell == "Leaking from somewhere")
+    {
+       return "\s[17]Great.\w8 Now there's something dripping on me from the ceiling.\w8 I hope that's just water.";
+    } 
+    else {
+        return "\s[3]Can you get me a cup of water?\w8 My mouth feels like sandpaper.";
+    }
+}
+
 talk EvilTalk {
     \s[6666][Beelzebub left dirty dishes in the sink]
 }
@@ -359,4 +369,47 @@ talk EvilTalk {
 }
 talk EvilTalk {
     \s[6666]Beelzebub is swimming in a retention pond that has a “No Swimming” sign next to it.
+}
+
+//spectre stuff
+
+function OnSpectrePlugin@ConfirmCalibration
+{
+	return "\![raiseplugin,Spectre,OnCustomCalibrationConfirm]";
+}
+
+function OnSpectrePlugin@Surface
+{
+	if (Shiori.Reference[0] == "normal") return "\s[0]";
+	else if (Shiori.Reference[0] ==  "embarrassed") return "\s[1]";
+	else if (Shiori.Reference[0] ==  "surprised") return "\s[2]";
+	else if (Shiori.Reference[0] ==  "anxious") return "\s[3]";
+	else if (Shiori.Reference[0] ==  "discouraged") return "\s[4]";
+	else if (Shiori.Reference[0] ==  "smile") return "\s[5]";
+	else if (Shiori.Reference[0] ==  "relieved") return "\s[6]";
+	else if (Shiori.Reference[0] ==  "angry") return "\s[7]";
+	else if (Shiori.Reference[0] ==  "sweat") return "\s[8]";
+	else if (Shiori.Reference[0] ==  "indignant") return "\s[9]";
+	else if (Shiori.Reference[0] ==  "thinking") return "\s[16]";
+	else if (Shiori.Reference[0] ==  "unamused") return "\s[14]";
+}
+
+function OnSpectrePlugin@Possession
+{
+	if (contract()==false && Random.GetIndex(0,4) == 0 )
+	{
+		return Reflection.Get("SpectreTalk");
+	}
+}
+
+talk SpectreTalk {
+    \s[9]Hey, what are you whispering?\w8 You said something, right?
+}
+
+talk SpectreTalk {
+    \s[7]Ugh, I just felt a cold breeze out of nowhere.
+}
+
+talk SpectreTalk{
+    \s[3].\w4.\w4.\w8Maybe this house is haunted.\w4.\w4.\w8
 }
