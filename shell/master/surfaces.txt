@@ -154,20 +154,23 @@ surface17
 //wings and dressups
 surface.append0-18
 {
-	//Wings animate
-	animation5.interval,random,10
-	animation5.option,background
-	animation5.pattern0,stop,6
-  	animation5.pattern1,overlay,3002,0,0,0  
-	animation5.pattern2,overlay,3001,20,0,0
-    animation5.pattern3,overlay,3002,150,0,0
-	animation5.pattern4,overlay,-1,20,0 0
-	animation5.pattern5,start,6
-	
+
 	//wings default
-	animation6.interval,runonce
+	animation5.interval,always
+	animation5.option,background
+	animation5.pattern0,replace,3000,0,0,0
+
+	//Wings animate
+	animation6.interval,random,10
 	animation6.option,background
-	animation6.pattern0,overlay,3000,0,0
+	//animation6.pattern0,stop,6
+  	animation6.pattern1,replace,3002,0,0,0  
+	animation6.pattern2,replace,3001,20,0,0
+        animation6.pattern3,replace,3002,150,0,0
+	animation6.pattern0,replace,3000,20,0
+	//animation5.pattern4,replace,-1,20,0 0
+	//animation5.pattern5,start,6
+	
     
     //dressups 
     animation7.interval,bind

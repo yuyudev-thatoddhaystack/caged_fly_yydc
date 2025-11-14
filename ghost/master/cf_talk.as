@@ -197,7 +197,7 @@ talk RandomTalk {
 
 talk RandomTalk {
 
-    \s[3]Before you came here,\w2 I was so bored I spent hours starting at the cracks and lines on the ceiling.\w8 
+    \s[3]Before you came here,\w2 I was so bored I spent hours staring at the cracks and lines on the ceiling.\w8 
     
     \s[11]Trying to see if I could make patterns out of them like constellations.
 
