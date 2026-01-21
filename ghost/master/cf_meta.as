@@ -57,7 +57,7 @@ function OnSurfaceRestore
 {
 	
 	if (contract()){
-		return "\0\s[6666]";
+		return "\![set,alignmenttodesktop,free]\0\s[6666]";
 	} else {
 		return "\![set,alignmenttodesktop,bottom]\0\s[0]";
 	}

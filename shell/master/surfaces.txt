@@ -14,20 +14,20 @@ version,1
 
 surface0
 {
-
+    element0,overlay,surface0_0.png,0,0
 }
 
 //embarrassed
 surface1
 {
-    element0,overlay,surface0.png,0,0
+    element0,overlay,surface0_0.png,0,0
     element1,overlay,surface4002.png,0,0
 }
 
 //surprise
 surface2
 {
-	element0,overlay,surface0.png,0,0
+	element0,overlay,surface0_0.png,0,0
     element1,overlay,surface4000.png,0,0
     element2,overlay,surface2000.png,0,0
 }
@@ -35,7 +35,7 @@ surface2
 //anxiety
 surface3
 {
-	element0,overlay,surface0.png,0,0
+	element0,overlay,surface0_0.png,0,0
     element1,overlay,surface4002.png,0,0
     element2,overlay,surface2052.png,0,0
 }
@@ -43,7 +43,7 @@ surface3
 //discourage
 surface4
 {
-	element0,overlay,surface0.png,0,0
+	element0,overlay,surface0_0.png,0,0
     element1,overlay,surface4002.png,0,0
     element2,overlay,surface2022.png,0,0
 }
@@ -51,7 +51,7 @@ surface4
 //smile
 surface5
 {
-	element0,overlay,surface0.png,0,0
+	element0,overlay,surface0_0.png,0,0
     element1,overlay,surface2032.png,0,0
     element2,overlay,surface4000.png,0,0
 }
@@ -59,14 +59,14 @@ surface5
 //closing eyes
 surface6
 {
-	element0,overlay,surface0.png,0,0
+	element0,overlay,surface0_0.png,0,0
     element1,overlay,surface1001.png,0,0
 }
 
 //anger
 surface7
 {
-	element0,overlay,surface0.png,0,0
+	element0,overlay,surface0_0.png,0,0
     element1,overlay,surface4001.png,0,0
     element2,overlay,surface2042.png,0,0
 }
@@ -74,7 +74,7 @@ surface7
 //sneer
 surface8
 {
-	element0,overlay,surface0.png,0,0
+	element0,overlay,surface0_0.png,0,0
     element1,overlay,surface4001.png,0,0
     element2,overlay,surface2032.png,0,0
 }
@@ -82,7 +82,7 @@ surface8
 //embarrassed anger
 surface9
 {
-	element0,overlay,surface0.png,0,0
+	element0,overlay,surface0_0.png,0,0
     element1,overlay,surface4001.png,0,0
     element2,overlay,surface2052.png,0,0
 }
@@ -90,7 +90,7 @@ surface9
 //pensive
 surface11
 {
-	element0,overlay,surface0.png,0,0
+	element0,overlay,surface0_0.png,0,0
     element1,overlay,surface1001.png,0,0
     element2,overlay,surface4002.png,0,0
     element3,overlay,surface2042.png,0,0
@@ -99,7 +99,7 @@ surface11
 //closed eye smile
 surface12
 {
-	element0,overlay,surface0.png,0,0
+	element0,overlay,surface0_0.png,0,0
     element1,overlay,surface1001.png,0,0
     element2,overlay,surface4002.png,0,0
     element3,overlay,surface2032.png,0,0
@@ -109,7 +109,7 @@ surface12
 surface13
 {
 
-    element0,overlay,surface0.png,0,0
+    element0,overlay,surface0_0.png,0,0
     element1,overlay,surface1020.png,0,0
     element2,overlay,surface4001.png,0,0
     element3,overlay,surface2022.png,0,0
@@ -120,7 +120,7 @@ surface13
 surface14
 {
 
-    element0,overlay,surface0.png,0,0
+    element0,overlay,surface0_0.png,0,0
     element1,overlay,surface1000.png,0,0
     element2,overlay,surface4001.png,0,0
     element3,overlay,surface2022.png,0,0
@@ -136,7 +136,7 @@ surface15
 //resignated
 surface16
 {
-    element0,overlay,surface0.png,0,0
+    element0,overlay,surface0_0.png,0,0
     element1,overlay,surface1020.png,0,0
     element2,overlay,surface4000.png,0,0
     element3,overlay,surface2052.png,0,0
@@ -145,7 +145,7 @@ surface16
 //closed eyes angry
 surface17
 {
-	element0,overlay,surface0.png,0,0
+	element0,overlay,surface0_0.png,0,0
     element1,overlay,surface1001.png,0,0
     element2,overlay,surface4001.png,0,0
     element3,overlay,surface2042.png,0,0
@@ -163,13 +163,14 @@ surface.append0-18
 	//Wings animate
 	animation6.interval,random,10
 	animation6.option,background
-	//animation6.pattern0,stop,6
+	//animation6.pattern0,stop,5
+	//animation6.pattern1,replace,-1,0,0,0
   	animation6.pattern0,replace,3002,0,0,0  
 	animation6.pattern1,replace,3001,20,0,0
         animation6.pattern2,replace,3002,150,0,0
-	animation6.pattern3,replace,3000,20,0,0
+	animation6.pattern3,replace,-1,0,0,0
 	//animation5.pattern4,replace,-1,20,0 0
-	//animation5.pattern5,start,6
+	//animation6.pattern5,start,6
 	
     
     //dressups 

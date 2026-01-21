@@ -13,7 +13,7 @@ sakura.bindgroup7.name,Ritual Circle,Plain,circle
 sakura.bindgroup8.name,Ritual Circle,Star,circle
 sakura.bindgroup9.name,Ritual Circle,Intricate Star,circle
 
-menu.background.alignment,centerbottom
+menu.background.alignment,centerbottom+repeat-x+repeat-y
 menu.foreground.alignment,centerbottom
 
 menu.background.font.color.r,218
